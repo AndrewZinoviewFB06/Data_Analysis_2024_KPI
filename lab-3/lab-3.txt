@@ -1,0 +1,37 @@
+Framework: TensorFlow2 + Keras (можно використовувати Pytorch)
+
+1. Повнозв'язані нейронні мережі
+Вирішіть завдання класифікації даних, з якими ви працювали в лабораторній № 1 за допомогою повнозв’язаної нейромережі прямого поширення (fully connected feed-forward network). Результати порівняйте з одержаними раніше. 
+Приклади:
+https://github.com/natsakh/Data-Analysis/tree/main/Pr_5
+https://keras.io/examples/structured_data/imbalanced_classification/
+
+2. Згорткові нейронні мережі
+Вирішіть завдання класифікації зображень за допомогою згорткової (convolutional) нейромережі двома способами
+а) навчить мережу з нуля (from scratch)
+б) застосуйте перенесення навчання (transfer learning from pre-trained weights)
+Порівняйте результати (якщо в обраному датасеті класів забагато, достатньо залишити 3-5).
+Приклади: 
+https://github.com/natsakh/Data-Analysis/tree/main/Pr_6
+https://keras.io/examples/vision/image_classification_from_scratch/
+https://keras.io/examples/vision/mnist_convnet/
+https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/
+
+3. Рекурентні нейронні мережі
+Вирішіть задачу класифікації текстів (з якими ви працювали в лабораторній № 2) за допомогою рекурентної нейромережі двома способами:
+а) навчить мережу і embedding шар з нуля (from scratch)
+б) використовуючи pretrained word embeddings
+ Результати порівняйте між собою і з одержаними раніш. 
+Приклади:
+https://github.com/natsakh/Data-Analysis/tree/main/Pr_7
+https://keras.io/examples/nlp/text_classification_from_scratch/
+https://keras.io/examples/nlp/bidirectional_lstm_imdb/
+https://keras.io/examples/nlp/pretrained_word_embeddings/
+* у деяких прикладах, з наведених вище, вирішується задача класифікації текстів за допомогою згорткових мереж, але вони можуть бути використані як приклад препроцесінга
+
+Датасети для завдання № 2 (MNIST та CIFAR-10 не використовувати) можна брати тут:
+https://www.kaggle.com/tags/image-data
+Як звіт – робочий код в Jupyter notebook заливаєте на свій репозиторій. Лінк відправляєте як відповідь до цього завдання.
+Максимальний бал – 10, 6 за роботу + 4 захист.
+Deadline 16.11.24 (захищати роботу можна до кінця семестру без зниження балів)
+(!) Однакові або дуже схожі роботи прийматися не будуть.
