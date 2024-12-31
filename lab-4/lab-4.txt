@@ -1,0 +1,26 @@
+1.  Завдання щодо генерації текстів або машинного перекладу (на вибір) на базі рекурентних мереж або трансформерів (на вибір). 
+Вирішіть завдання щодо генерації текстів або машинного перекладу. Особливо вітаються україномовні моделі.  
+Датасети для перекладу можна брати тут: https://www.manythings.org/anki/
+Тексти українською для навчання генеративних моделей: https://www.kaggle.com/datasets/mykras/ukrainian-texts
+Приклади:
+https://keras.io/examples/nlp/neural_machine_translation_with_transformer/
+https://keras.io/examples/nlp/lstm_seq2seq/
+https://keras.io/examples/generative/lstm_character_level_text_generation/
+
+2. Проведіть експерименти з моделями бібліотеки Hugging Face (раніше - Hugging Face Transformers, https://huggingface.co/) за допомогою (наприклад) Pipeline модуля
+Приклади:
+https://github.com/natsakh/Data-Analysis/tree/main/Pr_8
+https://huggingface.co/learn/nlp-course/chapter1/3?fw=pt
+https://huggingface.co/learn/nlp-course/chapter2/2?fw=pt
+Знайдіть українські мовні моделі, наведіть приклади роботи з ними. 
+
+3. Завдання щодо генерації або стилізації зображень (на вибір)
+Вирішіть завдання перенесення стилю або генерації зображень (архітектура за вашим вибором: GAN/DCGAN/VAE/Diffusion).
+Датасети: можна брати CIFAR-100, Fashion MNIST або тут: https://www.kaggle.com/tags/image-data
+Приклади: 
+https://github.com/natsakh/Data-Analysis/tree/main/Pr_9
+https://keras.io/examples/generative/neural_style_transfer/
+https://keras.io/examples/generative/ddim/
+
+Як звіт – робочий код в Jupyter notebook заливаєте на свій репозиторій. Лінк відправляєте як відповідь до цього завдання.
+Максимальний бал – 10, 6 за роботу + 4 захист.
